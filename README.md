@@ -24,3 +24,16 @@
 
 
 ## Configuración de Puppet
+
+Creamos el siguiente jerarquía
+- puppet
+    - manifests
+        - default.pp
+    - modules
+        - mysql
+            - files
+                - index.php
+                - mysql.conf
+            - manifests
+                - init.php
+- VagrantFile
