@@ -1,4 +1,4 @@
-#  Creación de un entorno de desarrolo LAMP con Vagrant y Puppet
+#  SetUp entorno de desarrolo LAMP con Vagrant y Puppet
 
 ## Descarga e instalación
 
