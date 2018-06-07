@@ -25,7 +25,7 @@
 
 ## Configuración de Puppet
 
-Creamos el siguiente jerarquía
+Creamos la siguiente jerarquía
 - puppet
     - manifests
         - default.pp
