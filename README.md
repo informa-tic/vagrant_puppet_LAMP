@@ -25,7 +25,8 @@
 
 ## Configuración de Puppet
 
-Creamos la siguiente jerarquía
+~~~ Creamos la siguiente jerarquía
+
 - puppet
     - manifests
         - default.pp
@@ -36,4 +37,5 @@ Creamos la siguiente jerarquía
                 - mysql.conf
             - manifests
                 - init.php
-- VagrantFile
+- VagrantFile 
+~~~
