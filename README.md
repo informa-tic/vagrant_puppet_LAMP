@@ -18,7 +18,7 @@
 
 `$ vagrant reload [name|id]`
 
-` vagrant halt [name|id]`
+`$ vagrant halt [name|id]`
 
 [Ver todos los Comandos (CLI) disponibles](https://www.vagrantup.com/docs/cli)
 
