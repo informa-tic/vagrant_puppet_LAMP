@@ -22,9 +22,7 @@ Tener Vagrant y VirtualBox descargados
 
 `$ vagrant ssh initial_env`
 
-En caso de presentar problemas por falta de compatibilidad entre Vagrant y VirtualBox realizar siguiente configuración manualmente
-
-https://github.com/hashicorp/vagrant/commit/7d73af5637de41f1e53b8f1ef2ea9baf76842dfb
+En caso de presentar problemas por falta de compatibilidad entre Vagrant y VirtualBox realizar siguiente configuración manualmente: https://github.com/hashicorp/vagrant/commit/7d73af5637de41f1e53b8f1ef2ea9baf76842dfb
 
 ## Apuntes varios
 
