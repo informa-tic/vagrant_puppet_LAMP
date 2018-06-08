@@ -1,6 +1,8 @@
-#  SetUp entorno de desarrolo LAMP con Vagrant y Puppet
+#  Setup Vagrant y Puppet en SO Ubuntu 16.04
 
-## Descarga e instalación en SO Ubuntu 16.04
+## Pre -requisitos
+
+* Tener Vagrant y VirtualBox descargados
 
 #### [Descargar Vagrant](https://www.vagrantup.com/downloads.html)
 
@@ -15,21 +17,17 @@
 `sudo dpkg -r vagrant`
 
 
-[Descargar VirtualBox](https://www.virtualbox.org/wiki/)
+#### [Descargar VirtualBox](https://www.virtualbox.org/wiki/)
 
-## Comandos útiles Vagrant
-
-`$ vagrant init`
-
-`$ vagrant box list`
+## Ejecutar repositorio
 
 `$ vagrant up [vm-name]`
 
-`$ vagrant up [vm-name] --provision`
+`$ vagrant up initial_env`
 
-`$ vagrant reload [name|id]`
+`$ vagrant ssh initial_env`
 
-`$ vagrant halt [name|id]`
+## Apuntes varios
 
 [Ver todos los Comandos (CLI) disponibles](https://www.vagrantup.com/docs/cli)
 
