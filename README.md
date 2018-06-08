@@ -2,7 +2,7 @@
 
 ## Descarga e instalación en SO Ubuntu 16.04
 
-[Descargar Vagrant](https://www.vagrantup.com/downloads.html)
+#### [Descargar Vagrant](https://www.vagrantup.com/downloads.html)
 
 `$ wget https://releases.hashicorp.com/vagrant/1.9.1/vagrant_1.9.1_x86_64.deb`
 
@@ -10,11 +10,10 @@
 
 `$ vagrant -v`
 
-Uninstall Vagrant
+#### Uninstall Vagrant
 
 `sudo dpkg -r vagrant`
 
-Para desisntallar Vagrant
 
 [Descargar VirtualBox](https://www.virtualbox.org/wiki/)
 
