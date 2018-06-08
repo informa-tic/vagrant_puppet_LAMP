@@ -2,7 +2,7 @@
 
 ## Pre -requisitos
 
-* Tener Vagrant y VirtualBox descargados
+Tener Vagrant y VirtualBox descargados
 
 #### [Descargar Vagrant](https://www.vagrantup.com/downloads.html)
 
@@ -11,11 +11,6 @@
 `$ sudo dpkg -i vagrant vagrant_1.9.1_x86_64.deb`
 
 `$ vagrant -v`
-
-#### Uninstall Vagrant
-
-`sudo dpkg -r vagrant`
-
 
 #### [Descargar VirtualBox](https://www.virtualbox.org/wiki/)
 
@@ -31,6 +26,9 @@
 
 [Ver todos los Comandos (CLI) disponibles](https://www.vagrantup.com/docs/cli)
 
+#### Uninstall Vagrant
+
+`sudo dpkg -r vagrant`
 
 ## Configuración de Puppet
 
