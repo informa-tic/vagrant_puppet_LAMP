@@ -8,7 +8,7 @@ Tener Vagrant y VirtualBox descargados
 
 `$ wget https://releases.hashicorp.com/vagrant/1.9.1/vagrant_1.9.1_x86_64.deb`
 
-`$ sudo dpkg -i vagrant vagrant_1.9.1_x86_64.deb`
+`$ sudo dpkg -i vagrant_1.9.1_x86_64.deb`
 
 `$ vagrant -v`
 
